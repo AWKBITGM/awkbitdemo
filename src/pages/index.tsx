@@ -544,7 +544,7 @@ export default function Page() {
             className="sm:w-7 lg:w-[2vw]"
           />
         }
-        t10="Copyright © 2024 All rights reserved | Powered by"
+        t10={<p>Copyright &#xa9; 2024 All rights reserved | Powered by</p>}
         t11="/"
         t12="Awkbit"
       />
