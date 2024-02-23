@@ -1,0 +1,37 @@
+<svg width="436" height="356" viewBox="0 0 436 356" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_281_1799)">
+<path d="M251.192 215.843L295.516 212.995L234.896 332.431L251.192 215.843Z" fill="#9E9E9E"/>
+<path d="M249.104 215.756L150.11 256.658L232.855 333.593L249.104 215.756Z" fill="#6D6D6D"/>
+<path d="M148.283 257.813L100.682 295.542L229.078 333.086L148.283 257.813Z" fill="#434343"/>
+<path d="M76.2625 61.9752L44.7997 93.7431L100.398 293.622L147.44 256.056L76.2625 61.9752Z" fill="#5A5A5A"/>
+<path d="M77.7985 62.3557L145.61 36.0221L248.09 214.14L149.356 254.674L77.7985 62.3557Z" fill="#A0A0A0"/>
+<path d="M147.097 35.4422L183.431 33.2222L295.393 211.277L250.38 213.899L147.097 35.4422Z" fill="#BEBEBE"/>
+<path d="M45.883 90.5807L87.4035 10.9832L74.8443 61.3389L45.883 90.5807Z" fill="#414040"/>
+<path d="M89.1162 9.7144L144.459 34.8821L76.4182 61.2165L89.1162 9.7144Z" fill="#A7A7A7"/>
+<path d="M145.601 34.1893L182.024 32.1806L92.6679 9.81215L145.601 34.1893Z" fill="#C1C1C1"/>
+<g style="mix-blend-mode:color">
+<path d="M251.192 215.843L295.516 212.995L234.896 332.431L251.192 215.843Z" fill="#D83EFF"/>
+<path d="M249.104 215.756L150.11 256.658L232.855 333.593L249.104 215.756Z" fill="#D83EFF"/>
+<path d="M148.283 257.813L100.682 295.542L229.078 333.086L148.283 257.813Z" fill="#D83EFF"/>
+<path d="M76.2625 61.9752L44.7997 93.7431L100.398 293.622L147.44 256.056L76.2625 61.9752Z" fill="#D83EFF"/>
+<path d="M77.7985 62.3557L145.61 36.0221L248.09 214.14L149.356 254.674L77.7985 62.3557Z" fill="#D83EFF"/>
+<path d="M147.097 35.4422L183.431 33.2222L295.393 211.277L250.38 213.899L147.097 35.4422Z" fill="#D83EFF"/>
+<path d="M45.883 90.5807L87.4035 10.9832L74.8443 61.3389L45.883 90.5807Z" fill="#D83EFF"/>
+<path d="M89.1162 9.7144L144.459 34.8821L76.4182 61.2165L89.1162 9.7144Z" fill="#D83EFF"/>
+<path d="M145.601 34.1893L182.024 32.1806L92.6679 9.81215L145.601 34.1893Z" fill="#D83EFF"/>
+</g>
+<g style="mix-blend-mode:overlay" filter="url(#filter0_f_281_1799)">
+<path d="M89.0001 11L45.1521 90.4845L101.085 297.358L229.039 330.304L272.551 279.555L89.0001 11Z" fill="#47057A"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_281_1799" x="11.1521" y="-23" width="295.399" height="387.304" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="17" result="effect1_foregroundBlur_281_1799"/>
+</filter>
+<clipPath id="clip0_281_1799">
+<rect width="436" height="356" fill="white"/>
+</clipPath>
+</defs>
+</svg>
