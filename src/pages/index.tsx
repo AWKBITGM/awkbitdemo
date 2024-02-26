@@ -1,13 +1,14 @@
-import { Brands } from "@/components/Brands";
-import { Footer } from "@/components/Footer";
-import { Hero3 } from "@/components/Hero3";
-import { Services } from "@/components/Services";
-import { Textbanner } from "@/components/Textbanner";
+import { Newbrands } from "@/components/Newbrands";
+import { Newfooter } from "@/components/Newfooter";
+import { Newheader } from "@/components/Newheader";
+import { Newleftserviceblock } from "@/components/Newleftserviceblock";
+import { Newrightserviceblock } from "@/components/Newrightserviceblock";
+import { Newsecondaryheader } from "@/components/Newsecondaryheader";
 import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <Hero3
+      <Newheader
         t1={
           <Image
             src="/backgroundHero.png"
@@ -46,11 +47,21 @@ export default function Page() {
             className="w-[14vw]"
           />
         }
-        t7="we deliver"
-        t8="I'm looking for a"
-        t9="BUNCH OF CODERS"
-        t10="contact us"
-        t11={
+        t7={
+          <>
+            we <br className="inline-block" /> arri{" "}
+            <br className="inline-block" /> ved
+          </>
+        }
+        t8="we deliver"
+        t9="I´m looking for a"
+        t10={
+          <>
+            <br className="sm:hidden uppercase" /> BUNCH OF CODERS
+          </>
+        }
+        t11="contact us"
+        t12={
           <Image
             src="/sloth.svg"
             width={1361}
@@ -59,15 +70,23 @@ export default function Page() {
             className="sm:hidden absolute -top-[147%] sm:-top-1/4 -left-16 sm:left-[42%] max-w-[600px] sm:max-w-full h-[700px] sm:h-auto w-[600px] sm:w-full"
           />
         }
-        t12="I'm looking for a"
-        t13="BUNCH OF CODERS"
-        t14="contact us"
+        t13="I´m looking for a"
+        t14={
+          <>
+            <br className="sm:hidden uppercase" /> BUNCH OF CODERS
+          </>
+        }
+        t15="contact us"
       />
-      <Textbanner
-        t1={<p>Digital Platforms custom-built without the blah-blah</p>}
-        t2={<p>We deliver</p>}
+      <Newsecondaryheader
+        t1={
+          <>
+            Digital Platforms custom-built <br /> without the blah-blah
+          </>
+        }
+        t2="We deliver"
       />
-      <Services
+      <Newleftserviceblock
         t1={
           <Image
             src="/feature1Mobile.svg"
@@ -78,7 +97,11 @@ export default function Page() {
         }
         t2="CODING"
         t3="Coding"
-        t4="Staff augmentation grows your team in a flash."
+        t4={
+          <>
+            Staff augmentation grows your team in a flash. <br />
+          </>
+        }
         t5="We elevate development to make groundbreaking projects come true."
         t6={
           <Image
@@ -89,12 +112,25 @@ export default function Page() {
             className="2xl:w-[25vw]"
           />
         }
-        t7={<Image src="" width={450} height={200} alt="feature2" />}
-        t8="quality—"
-        t9="Testing"
-        t10="Feedback builds champions.Testers train them."
-        t11="Quality Assurance is the reality check of software development. Reap its benefits through staff augmentation or time and materials."
-        t12={
+      />
+      <Newrightserviceblock
+        t1={
+          <Image
+            src="/feature2Mobile.svg"
+            width={378}
+            height={144}
+            alt="feature2"
+          />
+        }
+        t2="quality—"
+        t3="Testing"
+        t4={
+          <>
+            Feedback builds champions. <br /> Testers train them.
+          </>
+        }
+        t5="Quality Assurance is the reality check of software development. Reap&#xA;          its benefits through staff augmentation or time and materials."
+        t6={
           <Image
             src="/feature2.svg"
             width={436}
@@ -103,53 +139,13 @@ export default function Page() {
             className="2xl:w-[25vw]"
           />
         }
-        t13={
-          <Image
-            src="/feature3Mobile.svg"
-            width={378}
-            height={145}
-            alt="feature3"
-          />
-        }
-        t14="optimize"
-        t15="your— CLOUD INFRASTRUCTURE"
-        t16="devOps"
-        t17="Automation is the present-future.DevOps is the way."
-        t18="Blend development and Operations. Automate your workflow with Outsourced Staffing."
-        t19={
-          <Image
-            src="/feature3.svg"
-            width={436}
-            height={356}
-            alt="feature3"
-            className="2xl:w-[25vw]"
-          />
-        }
-        t20={
-          <Image
-            src="/feature4Mobile.svg"
-            width={378}
-            height={166}
-            alt="feature4"
-          />
-        }
-        t21="seduce—"
-        t22="your users"
-        t23="UX—UI"
-        t24="Visuals are not just a cosmetic thing.Concept is everything."
-        t25="A mind-blowing user interface makes a memorable user experience. We use the right tools for a comprehensive UX—UI design."
-        t26={
-          <Image
-            src="/feature4.svg"
-            width={436}
-            height={356}
-            alt="feature4"
-            className="2xl:w-[25vw]"
-          />
-        }
       />
-      <Brands
-        t1="Brands—"
+      <Newbrands
+        t1={
+          <>
+            Brands&#x2014; <br />
+          </>
+        }
         t2="who trust us"
         t3="https://rga.com/"
         t4={
@@ -157,7 +153,7 @@ export default function Page() {
             src="/logo-cfr.svg"
             width={172}
             height={172}
-            alt="Logo RGA"
+            alt="Logo CFR"
             className="hidden sm:block object-cover object-center 2xl:w-[31vh]"
           />
         }
@@ -494,7 +490,7 @@ export default function Page() {
           />
         }
       />
-      <Footer
+      <Newfooter
         t1={
           <Image
             src="/footer.svg"
@@ -544,7 +540,12 @@ export default function Page() {
             className="sm:w-7 lg:w-[2vw]"
           />
         }
-        t10={<p>Copyright &#xa9; 2024 All rights reserved | Powered by</p>}
+        t10={
+          <>
+            Copyright &#xa9; 2023 All rights reserved{" "}
+            <br className="smallScreen:hidden" /> | Powered by
+          </>
+        }
         t11="/"
         t12="Awkbit"
       />
