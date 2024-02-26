@@ -129,7 +129,7 @@ export default function Page() {
             Feedback builds champions. <br /> Testers train them.
           </>
         }
-        t5="Quality Assurance is the reality check of software development. Reap&#xA;          its benefits through staff augmentation or time and materials."
+        t5="Quality Assurance is the reality check of software development. Reap its benefits through staff augmentation or time and materials."
         t6={
           <Image
             src="/feature2.svg"

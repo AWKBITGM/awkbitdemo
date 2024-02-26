@@ -9,7 +9,6 @@ export function Newheader(props: any) {
             <div>
               <a
                 href={props.t3}
-                alt="logo"
                 className="flex sm:hidden w-full justify-center mt-11 mb-7"
                 aria-label="Go to Homepage"
               >
@@ -20,7 +19,6 @@ export function Newheader(props: any) {
               <div className="w-1/2 flex flex-col items-end">
                 <a
                   href={props.t5}
-                  alt="logo"
                   className="mt-[7vw] mb-[3vw] hidden sm:block z-40"
                   aria-label="Go to Homepage"
                 >

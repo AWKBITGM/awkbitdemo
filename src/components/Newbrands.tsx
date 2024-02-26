@@ -11,12 +11,7 @@ export function Newbrands(props: any) {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-6">
         <div className="flex justify-center items-center">
-          <a
-            href={props.t3}
-            alt="Logo CFR"
-            target="_blank"
-            aria-label="Go to the RGA page"
-          >
+          <a href={props.t3} target="_blank" aria-label="Go to the RGA page">
             {props.t4}
             {props.t5}
           </a>
@@ -24,7 +19,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t6}
-            alt="Logo Tombras"
             target="_blank"
             aria-label="Go to the Tombras page"
           >
@@ -33,12 +27,7 @@ export function Newbrands(props: any) {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <a
-            href={props.t9}
-            alt="Logo BKJ"
-            target="_blank"
-            aria-label="Go to the BKJ page"
-          >
+          <a href={props.t9} target="_blank" aria-label="Go to the BKJ page">
             {props.t10}
             {props.t11}
           </a>
@@ -46,7 +35,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t12}
-            alt="Logo Appnovation"
             target="_blank"
             aria-label="Go to the Appnovation page"
           >
@@ -57,7 +45,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t15}
-            alt="Logo Wunderman"
             target="_blank"
             aria-label="Go to the Wunderman page"
           >
@@ -68,7 +55,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t18}
-            alt="Logo PMI"
             target="_blank"
             aria-label="Go to the Project Map IT page"
           >
@@ -77,12 +63,7 @@ export function Newbrands(props: any) {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <a
-            href={props.t21}
-            alt="Logo ATOS"
-            target="_blank"
-            aria-label="Go to the ATOS page"
-          >
+          <a href={props.t21} target="_blank" aria-label="Go to the ATOS page">
             {props.t22}
             {props.t23}
           </a>
@@ -90,7 +71,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t24}
-            alt="Logo Wilson Fletcher"
             target="_blank"
             aria-label="Go to the Wilson Fletcher page"
           >
@@ -99,12 +79,7 @@ export function Newbrands(props: any) {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <a
-            href={props.t27}
-            alt="Logo Tonic"
-            target="_blank"
-            aria-label="Go to the Tonic page"
-          >
+          <a href={props.t27} target="_blank" aria-label="Go to the Tonic page">
             {props.t28}
             {props.t29}
           </a>
@@ -112,7 +87,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t30}
-            alt="Logo Paginar"
             target="_blank"
             aria-label="Go to the Paginar page"
           >
@@ -123,7 +97,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t33}
-            alt="Logo IT Crowd"
             target="_blank"
             aria-label="Go to the IT Crowd page"
           >
@@ -134,7 +107,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t36}
-            alt="Logo Populicom"
             target="_blank"
             aria-label="Go to the Populicom page"
           >
@@ -156,7 +128,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t42}
-            alt="Logo University of Belgrano"
             target="_blank"
             aria-label="Go to the University of Belgrano page"
           >
@@ -165,12 +136,7 @@ export function Newbrands(props: any) {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <a
-            href={props.t45}
-            alt="Logo BCR"
-            target="_blank"
-            aria-label="Go to the BCR page"
-          >
+          <a href={props.t45} target="_blank" aria-label="Go to the BCR page">
             {props.t46}
             {props.t47}
           </a>
@@ -178,7 +144,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t48}
-            alt="Logo Argentina.gob.ar"
             target="_blank"
             aria-label="Go to the Argentina page"
           >
@@ -187,23 +152,13 @@ export function Newbrands(props: any) {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <a
-            href={props.t51}
-            alt="Logo TedX"
-            target="_blank"
-            aria-label="Go to the TedX page"
-          >
+          <a href={props.t51} target="_blank" aria-label="Go to the TedX page">
             {props.t52}
             {props.t53}
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <a
-            href={props.t54}
-            alt="Logo Wobi"
-            target="_blank"
-            aria-label="Go to the Wobi page"
-          >
+          <a href={props.t54} target="_blank" aria-label="Go to the Wobi page">
             {props.t55}
             {props.t56}
           </a>
