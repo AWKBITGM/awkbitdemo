@@ -117,7 +117,6 @@ export function Newbrands(props: any) {
         <div className="flex justify-center items-center">
           <a
             href={props.t39}
-            alt="Logo University of San Andres"
             target="_blank"
             aria-label="Go to the University of San Andres page"
           >
