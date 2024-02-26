@@ -1,14 +1,14 @@
 import { Newbrands } from "@/components/Newbrands";
 import { Newfooter } from "@/components/Newfooter";
-import { Newheader } from "@/components/Newheader";
-import { Newleftserviceblock } from "@/components/Newleftserviceblock";
-import { Newrightserviceblock } from "@/components/Newrightserviceblock";
+import { Newhero } from "@/components/Newhero";
 import { Newsecondaryheader } from "@/components/Newsecondaryheader";
+import { Newserviceleft } from "@/components/Newserviceleft";
+import { Newserviceright } from "@/components/Newserviceright";
 import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <Newheader
+      <Newhero
         t1={
           <Image
             src="/backgroundHero.png"
@@ -54,14 +54,17 @@ export default function Page() {
           </>
         }
         t8="we deliver"
-        t9="I´m looking for a"
-        t10={
+        t9={
           <>
-            <br className="sm:hidden uppercase" /> BUNCH OF CODERS
+            I&#xb4;m looking for a{" "}
+            <span className="uppercase text-pink-400 text-awkbit-pink font-normal text-[20px] sm:text-textHero font-ubuntu">
+              <br className="sm:hidden uppercase" />
+              BUNCH OF CODERS
+            </span>
           </>
         }
-        t11="contact us"
-        t12={
+        t10="contact us"
+        t11={
           <Image
             src="/sloth.svg"
             width={1361}
@@ -70,13 +73,16 @@ export default function Page() {
             className="sm:hidden absolute -top-[147%] sm:-top-1/4 -left-16 sm:left-[42%] max-w-[600px] sm:max-w-full h-[700px] sm:h-auto w-[600px] sm:w-full"
           />
         }
-        t13="I´m looking for a"
-        t14={
+        t12={
           <>
-            <br className="sm:hidden uppercase" /> BUNCH OF CODERS
+            I&#xb4;m looking for a{" "}
+            <span className="uppercase text-awkbit-pink font-normal text-[20px] sm:text-textHero font-ubuntu">
+              <br className="sm:hidden uppercase" />
+              BUNCH OF CODERS
+            </span>
           </>
         }
-        t15="contact us"
+        t13="contact us"
       />
       <Newsecondaryheader
         t1={
@@ -86,7 +92,7 @@ export default function Page() {
         }
         t2="We deliver"
       />
-      <Newleftserviceblock
+      <Newserviceleft
         t1={
           <Image
             src="/feature1Mobile.svg"
@@ -95,7 +101,12 @@ export default function Page() {
             alt="feature1"
           />
         }
-        t2="CODING"
+        t2={
+          <>
+            Expand <span className="text-pink-300">CODING</span> <br />{" "}
+            &#x2014;no need to worry
+          </>
+        }
         t3="Coding"
         t4={
           <>
@@ -113,7 +124,7 @@ export default function Page() {
           />
         }
       />
-      <Newrightserviceblock
+      <Newserviceright
         t1={
           <Image
             src="/feature2Mobile.svg"
@@ -122,7 +133,12 @@ export default function Page() {
             alt="feature2"
           />
         }
-        t2="quality—"
+        t2={
+          <>
+            get <span className="text-pink-300">quality&#x2014;</span> <br />{" "}
+            whatever it takes
+          </>
+        }
         t3="Testing"
         t4={
           <>
@@ -264,7 +280,7 @@ export default function Page() {
         t21="https://worldline.com/"
         t22={
           <Image
-            src="/brands-ATOS-wordline.svg"
+            src="/logo-Appnovation.svg"
             width={172}
             height={172}
             alt="Logo ATOS"
@@ -362,7 +378,7 @@ export default function Page() {
             src="/brands-populicom.svg"
             width={172}
             height={172}
-            alt="Logo Populicom"
+            alt=""
             className="hidden sm:block object-cover object-center 2xl:w-[31vh]"
           />
         }
@@ -397,7 +413,7 @@ export default function Page() {
         t42="https://www.ub.edu.ar/"
         t43={
           <Image
-            src="/brands-UB.svg"
+            src="/brands-bkj.svg"
             width={172}
             height={172}
             alt="Logo University of Belgrano"
@@ -416,9 +432,9 @@ export default function Page() {
         t45="https://www.bcr.com.ar/es"
         t46={
           <Image
-            src="/brands-BCR.svg"
-            width={172}
-            height={172}
+            src="/brands-itcrowd.svg"
+            width={166}
+            height={81}
             alt="Logo BCR"
             className="hidden sm:block object-cover object-center 2xl:w-[31vh]"
           />

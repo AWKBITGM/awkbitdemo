@@ -1,4 +1,4 @@
-export function Newheader(props: any) {
+export function Newhero(props: any) {
   return (
     <div className="m-0 mx-auto">
       <div className="max-h-[unset] sm:aspect-[18/9]">
@@ -34,9 +34,6 @@ export function Newheader(props: any) {
                   <div className="mb-7 sm:mb-[1.4vw]">
                     <p className="leading-[23px] uppercase text-white text-awkbit-pinkLight font-normal text-[20px] sm:text-textHero font-ubuntuRegular text-center">
                       {props.t9}
-                      <span className="uppercase text-pink-400 text-awkbit-pink font-normal text-[20px] sm:text-textHero font-ubuntu">
-                        {props.t10}
-                      </span>
                     </p>
                   </div>
                 </div>
@@ -55,21 +52,18 @@ export function Newheader(props: any) {
                       pattern="^[^@]+@[^@]+\\.[a-zA-Z]{2,}$"
                     />
                     <button className="text-[22px] sm:text-textFormHero py-[0.7vw] px-[1.7vw] whitespace-nowrap w-full uppercase h-fit sm:w-fit text-white font-ubuntuLight bg-awkbit-fuchsiaButton rounded hover:bg-awkbit-pink z-10 border border-awkbit-fuchsiaButton">
-                      {props.t11}
+                      {props.t10}
                     </button>
                   </form>
                 </div>
               </div>
-              <div className="w-1/2 max-sm:relative">{props.t12}</div>
+              <div className="w-1/2 max-sm:relative">{props.t11}</div>
             </div>
             <div className="sm:hidden px-5 mt-[30vw]">
               <div className="block sm:hidden">
                 <div className="mb-7 sm:mb-[1.4vw]">
                   <p className="leading-[23px] uppercase text-awkbit-pinkLight font-normal text-[20px] sm:text-textHero font-ubuntuRegular text-center">
-                    {props.t13}
-                    <span className="uppercase text-awkbit-pink font-normal text-[20px] sm:text-textHero font-ubuntu">
-                      {props.t14}
-                    </span>
+                    {props.t12}
                   </p>
                 </div>
               </div>
@@ -88,7 +82,7 @@ export function Newheader(props: any) {
                     pattern="^[^@]+@[^@]+\\.[a-zA-Z]{2,}$"
                   />
                   <button className="text-[22px] py-2.5 px-5 2xl:text-textFormHero 2xl:py-[0.7vw] 2xl:px-[1.7vw] whitespace-nowrap w-full uppercase h-fit sm:w-fit text-white font-ubuntuLight bg-awkbit-fuchsiaButton rounded hover:bg-awkbit-pink z-10 border border-awkbit-fuchsiaButton">
-                    {props.t15}
+                    {props.t13}
                   </button>
                 </form>
               </div>
